@@ -1,0 +1,33 @@
+{
+  "cookie": {
+    "header": "Usage des cookies",
+    "content": "Ce site utilise des cookies afin d'améliorer l'expérience utilisateur. En aucun cas les données récoltées ne sont revendues à des tiers.",
+    "bt-valid": "Je comprend"
+  },
+  "header": {
+    "link-activities": "Activités",
+    "link-references": "Références",
+    "link-values": "Valeurs",
+    "link-labs": "LABS",
+    "link-contact": "Contact",
+    "link-blog": "Blog"
+  },
+  "content-bloc-1": {
+    "title": "nos Activités",
+    "app-title": "Réalisation application métier",
+    "app-desc": "JAVA, Python et React, AngularJs",
+    "app-content": "Réalisation d’une nouvelle application web correspondant à votre business.",
+    "site-title": "Création site",
+    "site-desc": "CMS / Landing page",
+    "site-content": "Mise en place d’un site web pour vous apporter de la visibilité sur internet",
+    "pack-title": "Pack Startup",
+    "pack-content": "Mise en place d’un kit de démarrage : mail, site vitrine, partage document, CRM...",
+    "bt-content": "Demandez votre devis"
+  },
+  "content-bloc-2": {
+    "title": "nos Références"
+  },
+  "footer": {
+    "copyright": "Build with ❤ by "
+  }
+}
