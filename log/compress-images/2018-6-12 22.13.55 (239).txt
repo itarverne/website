@@ -1,0 +1,10 @@
+File from: [images/taste.jpg]
+
+File to: [build/images/taste.jpg]
+
+Compression algorithm: [mozjpeg]
+
+============== LOG ============== 
+Error: Command failed: C:\Users\utilisateur\Documents\Informatique\Projects\website\node_modules\mozjpeg\vendor\cjpeg.exe -quality 60 -outfile build/images/taste.jpg images/taste.jpg
+Unrecognized input file format --- perhaps you need -targa
+================================= 

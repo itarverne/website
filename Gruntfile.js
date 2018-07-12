@@ -236,8 +236,8 @@ module.exports = function (grunt) {
           command: ['-quality', '60']
         },
         png: {
-          engine: 'pngquant',
-          command: ['--quality=20-50']
+          engine: 'pngcrush',
+          command: false
         },
         svg: {
           engine: 'svgo',
