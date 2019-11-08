@@ -1,0 +1,72 @@
+{
+  "cookie": {
+    "header": "Cookies usage",
+    "content": "This site uses cookies to improve the user’s experience. In no case will this data be sold to a third party.",
+    "bt-valid": "I understand."
+  },
+  "header": {
+    "link-activities": "Activities",
+    "link-references": "References",
+    "link-values": "Values",
+    "link-labs": "LABS",
+    "link-david": "Who am I ?",
+    "link-contact": "Get in touch",
+    "link-blog": "Blog",
+    "main-text": "Our web development expert",
+    "cookie-title": "Usage des cookies",
+    "cookie-content": "Ce site utilise des cookies afin d'améliorer l'expérience utilisateur. En aucun cas les données récoltées ne sont revendues à des tiers : ",
+    "cookie-link": "En savoir plus",
+    "cookie-bt": "Je comprend",
+    "browser-content": "Il est important de mettre à jour votre navigateur web afin de vous protéger correctement et de profiter des dernières technologies pour rendre votre navigation intuitive.",
+    "browser-desc-1": "Il est très simple de",
+    "browser-desc-2": "mettre à jour votre navigateur",
+    "browser-desc-3": "afin de profiter au mieux de ce site web."
+  },
+  "content-bloc-1": {
+    "title": "our Activities",
+    "app-title": "Create business application",
+    "app-desc": "JAVA, Python and React, AngularJs",
+    "app-content": "Build new application matching with our business.",
+    "site-title": "Create website",
+    "site-desc": "CMS / Landing page",
+    "site-content": "Applicant website to increase our wev visibility",
+    "pack-title": "Pack Startup",
+    "pack-content": "Install startup toolkit : mail, landing page website, share document, CRM...",
+    "training-title": "Training",
+    "training-content": "Development newbie/expert, security, discover front end...",
+    "bt-content": " Ask your quote"
+  },
+  "content-bloc-2": {
+    "title": "our References"
+  },
+  "content-bloc-3": {
+    "title": "our Values",
+    "text": "<b>ITArverne</b> wants to be a human society where employees thrive in a pleasant environment. We give ourselves the means to effectively train our employees so that they become true technical experts. <br> It is possible to have a full career in technology, the nuggets will evolve to positions of architect.",
+    "value-1": "<b> &lt;Respect&gt;</b> of our employees and customers.",
+    "value-2": " Being at <b>&lt;listening&gt;</ b> the expectations of each person both internally and at our customers.",
+    "value-3": " <b>&lt;Quality commitment&gt;</ b> Our clients have the right to experts to develop their project.",
+    "value-4": " Develop <b>&lt;sharp expertise&gt;</ b> with the means to be truly effective.",
+    "value-5": " <b>&lt;Valuing&gt;</b> the work of «techos» that requires a significant investment.",
+    "button": " Apply"
+  },
+  "content-bloc-4": {
+    "title": "Labs",
+    "desc": "<b>ITArverne</b> soutient l’Open Source en proposant des outils gratuits, librement accessibles avec un support technique.",
+    "bloc1-title": "GENERATEUR SITE STATIC",
+    "bloc1-desc": "Une application JS/HTML 5 qui permet de créer un site de type landing page avec le générateur yeoman.",
+    "bloc2-title": "REACT LinkedIn",
+    "bloc2-desc": "Une application React permettant de partager une page sur le réseau LinkedIn.",
+    "bloc3-title": "GRUNT plugin",
+    "bloc3-desc": "Un plugin Grunt pour la librairie npm compress-images afin d'adapter la taille des images pour le web.",
+    "processing": "en cours ...",
+    "more": "Et encore plein d'autres idées à vénir... "
+  },
+  "content-bloc-5": {
+    "title": "Who am I ?",
+    "text": "My name is David and I am from Auvergne where I decided to start my company. At work, I worked in different fields of activity but always related to the web. <br> <br> The job of developer impassioned me and I appreciate meeting my customers in order to propose them the best architecture with a maintainable code always according to the respects of the current coding. <br> <br> During these 10 years of experience, I was able to enrich my knowledge in the development but also in the business process. I master the Java, PHP and Python languages ​​on the back end as well as Reaction and Angular Js on the front end. As for the architecture part, I can intervene on the Docker, applications or just monolithic applications. find his account. <br>"
+  },
+  "footer": {
+    "copyright": "Build with ❤ by ",
+    "top-link": "Top"
+  }
+}
