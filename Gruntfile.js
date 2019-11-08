@@ -161,10 +161,10 @@ module.exports = function (grunt) {
         },
         files: {
           '<%= config.tmp %>/scripts/bundle-require.js': [
-            // 'node_modules/react-facebook/lib/Facebook.js',
-            // 'node_modules/react-facebook/lib/FacebookProvider.js',
-            // 'node_modules/react-facebook/lib/Like.js',
-            // '<%= config.tmp %>/scripts/react/main-react.js',
+            'node_modules/react-facebook/lib/Facebook.js',
+            'node_modules/react-facebook/lib/FacebookProvider.js',
+            'node_modules/react-facebook/lib/Like.js',
+            '<%= config.tmp %>/scripts/react/main-react.js',
             '<%= config.tmp %>/scripts/main.js'
           ]
         }
@@ -293,9 +293,9 @@ module.exports = function (grunt) {
         files: [{
           dest: '<%= config.tmp %>/scripts/<%= config.nameApp %>.min.js',
           src: [
-            // 'node_modules/jquery/dist/jquery.js',
-            // 'node_modules/react/dist/react.min.js',
-            // 'node_modules/react-dom/dist/react-dom.min.js',
+            'node_modules/jquery/dist/jquery.js',
+            'node_modules/react/dist/react.min.js',
+            'node_modules/react-dom/dist/react-dom.min.js',
             '<%= config.tmp %>/scripts/bundle-require.js'
           ]
         }]
@@ -404,11 +404,11 @@ module.exports = function (grunt) {
     // Run some tasks in parallel to speed up build process
     concurrent: {
       app: [
-        'i18n',
+        // 'i18n',
         'compressImages',
         'babel',
         'sass',
-        'babel:jsx',
+        'babel:jsx'
       ]
     }
 
