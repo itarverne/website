@@ -179,6 +179,21 @@ justify-content: center;
 
 
 }
+.js-copy{
+  color: #dddddd;
+  font-size: 1.2em;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.js-copy:hover {
+  color: #10bbc7;
+}
+
+.card__app-link{
+  font-weight: 550;
+  color: rgb(255, 255, 255);
+}
 
 // @mixin style-title-bold{
 //   font-family: 'quicksand-bold';
