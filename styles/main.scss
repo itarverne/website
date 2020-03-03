@@ -604,6 +604,63 @@ height: 100px;
   margin-left: 5rem;
   margin-right: 5rem;
 }
+
+.js-copy{
+  color: #dddddd;
+  font-size: 1.2em;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.js-copy:hover {
+  color: #eeea04;
+}
+
+.card__app-link{
+  font-weight: 550;
+  color: rgb(255, 255, 255);
+}
+
+.unselectable {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.hide-email {
+    font-size: 0;
+}
+
+.js-copy .tooltiptext {
+  visibility: visible;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  z-index: 1;
+  opacity: 0;
+  font-size: 0.65em;
+  transition: opacity 0.3s;
+}
+
+.js-copy .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.js-copy:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
 // .activities{
 //   background-color: $color-greenblue-light;
 //   margin-top: 5px;
