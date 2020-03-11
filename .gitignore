@@ -3,3 +3,5 @@ node_modules
 build
 tmp
 .vscode/
+
+images/.DS_Store

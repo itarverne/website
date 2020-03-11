@@ -449,6 +449,43 @@ justify-content: center;
 // .browser{
 //   @include style-header;
 // }
+.browser {
+  background-color: #d0e6e7;
+}
+.browser__title {
+  font-size: 2.5rem;
+  color: #1f3c49;
+}
+.browser__content {
+  font-size: 1.5rem;
+  color: #1f3c49;
+}
+.header__cookies-title {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+.header__cookies{
+  position: fixed;
+  z-index: 1;
+  background: #378795;
+  @include style-header;
+  width: 100%;
+  padding-left: 10px;
+  margin-top: -32px;
+}
+.header__cookies--validate{
+  font-size: $little-font-size;
+  background-color: #6a93a2;
+  border: none;
+}
+.header__cookies--more{
+  font-size: $little-font-size;
+}
+.header__nav-list{
+    list-style: none;
+    display: inline-block;
+}
 
 /***************/
 /**  Content  **/
@@ -505,6 +542,7 @@ height: 100%;
 height: 50%;
 }
 .grid__right-social-link{
+  color:$color-text-dark;
   display: inline-block;
   text-align: center;
   margin-right: 3%;
@@ -516,6 +554,17 @@ height: 50%;
 }
 .grid__right-video{
   width:100%;
+  border: 0;
+}
+@media (max-width: 61.9875em) {
+  .activities {
+    padding-top: 10px;
+  }
+}
+.activities__logo {
+  position: absolute;
+  right: 10px;
+  top: 0;
 }
 // Activities
 .activities__grid{
@@ -553,6 +602,59 @@ height: 50%;
 
 .company__title{
   margin-top: 8rem;
+}
+
+//Youtube
+.youtube {
+  background-color: #000;
+  margin-bottom: 30px;
+  position: relative;
+  padding-top: 56.25%;
+  overflow: hidden;
+  cursor: pointer;
+}
+.youtube img {
+  width: 100%;
+  top: -16.84%;
+  left: 0;
+  opacity: 0.7;
+}
+.youtube .play-button {
+  width: 90px;
+  height: 60px;
+  background-color: #333;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  opacity: 0.8;
+  border-radius: 6px;
+}
+.youtube .play-button:before {
+  content: "";
+  border-style: solid;
+  border-width: 15px 0 15px 26px;
+  border-color: transparent transparent transparent #fff;
+}
+.youtube .play-button,
+.youtube img {
+  cursor: pointer;
+}
+.youtube .play-button,
+.youtube .play-button:before,
+.youtube iframe,
+.youtube img {
+  position: absolute;
+}
+.youtube .play-button,
+.youtube .play-button:before {
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+.youtube iframe {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 
 // Values
@@ -660,6 +762,74 @@ height: 100px;
 .js-copy:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
+}
+
+
+
+.contact {
+  background-color: #4e6a71;
+}
+.contact__header-title {
+  color: #fff;
+  margin-bottom: 80px;
+}
+.contact__let,
+.contact__liam {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  margin-left: 5px;
+}
+.contact__david {
+  max-height: 200px;
+}
+.contact__company {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.contact__company-img {
+  width: 500px;
+  margin-top: 20px;
+}
+.contact__company-text {
+  color: #fff;
+  margin-top: 40px;
+}
+.contact__company-text:hover,
+.contact__company-text:visited,
+.contact__let:hover,
+.contact__let:visited,
+.contact__liam:hover,
+.contact__liam:visited {
+  color: #fff;
+  text-decoration: underline;
+}
+@media (max-width: 61.9875em) {
+  .contact__picto {
+    display: none;
+  }
+}
+.footer__text {
+  color: #1f3c49;
+}
+.footer__adresse {
+  color: #1f3c49;
+  margin-left: 3%;
+}
+
+.cookies__video {
+  border: 0;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  width: 100%;
+}
+.cgv__link {
+  color: #1f3c49;
 }
 // .activities{
 //   background-color: $color-greenblue-light;
@@ -1211,6 +1381,11 @@ height: 100px;
 //         margin-left: -14px;
 //     }
 // }
+@-moz-document url-prefix() {
+  .card__content-text {
+    padding-top: 0;
+  }
+}
 
 // /*******************************/
 // /** Hack for IE EDGE 12+ only **/
@@ -1220,3 +1395,8 @@ height: 100px;
 //         margin-left: -24px !important;
 //     }
 // }
+@supports (-ms-ime-align: auto) {
+  .card__content-text {
+    padding-top: 0;
+  }
+}
