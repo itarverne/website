@@ -115,6 +115,10 @@ $header-font-size:  2.5rem;
   body:target .nav-button-close {
     display: block;
   }
+
+  .card__content-header{
+    height: 100% !important;
+  }
   
 } /* end of small screen media query */
 
@@ -156,9 +160,16 @@ nav a {
 
 /*  Helper center vertical */
 .vertical-center {
-display: flex;
-align-items: center;
-justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vertical-center-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 /* Fin Helper center vertical */
 
@@ -667,6 +678,7 @@ height: 100px;
 }
 .values__header{
   margin-top: 8rem;
+  margin-bottom: 20rem;
   color:white;
 }
 .values__title{
@@ -681,6 +693,8 @@ height: 100px;
 }
 .values__row-center{
   height: 100%;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 .values__gris-2{
   margin-top: 7rem;
@@ -1384,6 +1398,10 @@ height: 100px;
 @-moz-document url-prefix() {
   .card__content-text {
     padding-top: 0;
+  }
+
+  .card__content-title{
+    height: inherit;
   }
 }
 
